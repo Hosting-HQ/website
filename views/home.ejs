@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Hosting HQ</title>
+    <meta content="Hosting built for the community." property="og:description"><meta content="Hosting HQ" property="og:site_name"><meta content="https://hostinghq.xyz/assets/logo.png" property="og:image">
+    <meta name="theme-color" content="#3C78B4">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://hostinghq.xyz/assets/css/home.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-users,.fa-server {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="top">
+  <div class="bar brand card left-align large">
+    <a class="bar-item button hide-medium hide-large right padding-large hover-white large brand" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://hostinghq.xyz/v1/dev" class="bar-item button padding-large white">Home</a>
+    <a href="https://hostinghq.xyz" class="bar-item button hide-small padding-large hover-white">Pricing</a>
+    <a href="https://hostinghq.xyz" class="bar-item button hide-small padding-large hover-white">Status</a>
+    <a href="https://hostinghq.xyz" class="bar-item button hide-small padding-large hover-white">Panel</a>
+    <a href="https://hostinghq.xyz" class="bar-item button hide-small padding-large hover-white">Discord</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+    <a href="https://hostinghq.xyz" class="bar-item button padding-large">Pricing</a>
+    <a href="https://hostinghq.xyz" class="bar-item button padding-large">Status</a>
+    <a href="https://hostinghq.xyz" class="bar-item button padding-large">Panel</a>
+    <a href="https://hostinghq.xyz" class="bar-item button padding-large">Discord</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="container brand center" style="padding:128px 16px">
+  <h1 class="margin jumbo">HOSTING HQ</h1>
+  <button class="button black padding-large large margin-top"><a href="https://hostinghq.xyz">Get Started</a></button>
+</header>
+
+<!-- First Grid -->
+<div class="row-padding padding-64 container">
+  <div class="content">
+    <div class="twothird">
+      <h1>Who we are</h1>
+      <h5 class="padding-32">Hosting HQ is a newly developed full-stack hosting provider, established in 2021</h5>
+
+      <p class="text-grey">With the idea of community based hosting, everything that goes into Hosting HQ is designed around the community. Want a host that will be there for you through all of your projects? Choose Hosting HQ.</p>
+    </div>
+
+    <div class="third center">
+      <i class="fa fa-users padding-64 text-brand"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="row-padding light-grey padding-64 container">
+  <div class="content">
+    <div class="third center">
+      <i class="fa fa-server padding-64 text-brand margin-right"></i>
+    </div>
+
+    <div class="twothird">
+      <h1>What we offer</h1>
+      <h5 class="padding-32">We offer full-stack hosting options for projects of all sizes.</h5>
+
+      <p class="text-grey">Supporting JavaScript, Java, Python2, Python3 as well as HTML and CSS through modules. Whether you are a new developer or an experienced one, we provide peace of mind no matter your project.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container black center opacity padding-64">
+    <h1 class="margin xlarge">Hosting built for the community.</h1>
+</div>
+
+<!-- Footer -->
+<footer class="container padding-64 center opacity">  
+
+<!-- THIS BRANDING LINK MUST BE KEPT IF MORE THAN 50% OF ORIGINAL CODE IS USED -->
+ <p>Powered by <a href="https://hostinghq.xyz" target="_blank">Hosting HQ</a></p>
+ <p>Copyright 2021 Hosting HQ</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+  } else { 
+    x.className = x.className.replace(" show", "");
+  }
+}
+</script>
+
+</body>
+</html>
+
