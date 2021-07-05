@@ -1,3 +1,5 @@
+module.exports = {
+    async start() {
 let express = require('express');
 let app = express();
 let responseTime = require('response-time')
@@ -47,3 +49,4 @@ app.use(function(err, req, res, next) {
    console.log(err.stack)
    res.status(500).render('errors/500')
 });
+    }}
