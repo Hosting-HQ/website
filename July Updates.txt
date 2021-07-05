@@ -1,0 +1,2 @@
+Updated to include alt-language options (and server files)
+Updated to include start script for ease of use
